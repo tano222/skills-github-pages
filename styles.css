@@ -1,0 +1,474 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+p.small {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+	font-size: 12px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; font-weight: normal;letter-spacing: 1px;
+	
+		  transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition:  height 0.5s;	
+}
+
+
+p {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+	font-size: 12px; line-height: 45px; font-family: Helvetica, Arial, sans-serif; font-weight: semibold;letter-spacing: 1px;
+}
+
+
+#header {
+  overflow: hidden;
+	position: sticky; top: 0;
+	background-color: white
+	
+}
+
+.flex-container-black {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+border-bottom:2px solid red;
+		
+}
+
+
+
+
+.flex-item-black {
+  padding: 8px;
+  flex: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+.flex-item-black {
+  float: left;
+}
+
+
+.flex-item-black:last-child {
+}
+
+.flex-item-black a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+}
+
+.flex-item-black a:hover:not(.active) {
+	  color: red;
+background-image: linear-gradient(0deg, #ff0000 20%, #ffffff 20%, #ffffff 50%, #ff0000 50%, #ff0000 70%, #ffffff 70%, #ffffff 100%);
+background-size: 10.00px 10.00px;
+}
+
+.flex-item-black .active {
+	  color: red;
+background-image: linear-gradient(0deg, #ff0000 20%, #ffffff 20%, #ffffff 50%, #ff0000 50%, #ff0000 70%, #ffffff 70%, #ffffff 100%);
+background-size: 22.00px 22.00px;
+}
+
+
+
+
+
+
+
+.flex-container-red {
+	height: 50px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+overflow: hidden;
+background-color: white;
+border-bottom:2px solid red;
+border-top:2px solid red;
+
+		  transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition:  height 0.5s;	
+	
+}
+
+
+.flex-container-red.small {
+height: 30px	
+}
+
+.flex-item-red {
+  flex: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+
+.flex-item-red2 {
+	 flex: 15%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: 
+    radial-gradient(rgb(255, 0, 0) 41.2%, transparent 43.6%);
+  background-position: 4px 4px;
+  background-size: 4px 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-item-red {
+  float: left;
+}
+
+
+.flex-item-red:last-child {
+}
+
+.flex-item-red a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+}
+
+.flex-item-red a:hover:not(.active) {
+background-image: linear-gradient(0deg, #ff0000 20%, #ffffff 20%, #ffffff 50%, #ff0000 50%, #ff0000 70%, #ffffff 70%, #ffffff 100%);
+background-size: 22.00px 22.00px;
+}
+
+.flex-item-red .active {
+	  color: red;
+background-image: linear-gradient(0deg, #ff0000 20%, #ffffff 20%, #ffffff 50%, #ff0000 50%, #ff0000 70%, #ffffff 70%, #ffffff 100%);
+background-size: 10.00px 10.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ulblack{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+border-bottom:2px solid black;
+}
+
+
+.ulred {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+border-bottom:2px solid red;
+border-top:2px solid red;
+}
+
+.liblack {
+  float: left;
+}
+
+.liblack:last-child {
+}
+
+.liblack a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.liblack a:hover:not(.active) {
+	  color: white;
+  repeating-linear-gradient(#e66465, #e66465 1px, #9198e5 1px, #9198e5 1px);
+}
+
+.liblack .active {
+	  color: white;
+  repeating-linear-gradient(#e66465, #e66465 1px, #9198e5 1px, #9198e5 1px);
+}
+
+
+
+
+
+
+
+
+.lired {
+  float: left;
+}
+
+.lired:last-child {
+
+}
+
+.lired a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.lired a:hover:not(.active) {
+	  color: white;
+  background-color: red;
+}
+
+.lired .active {
+	  color: white;
+  background-color: red;
+}
+
+
+#logo{
+  height: 150px;
+	  transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition:  height 0.5s;	
+}
+
+
+#logo.small {
+  height: 100px;
+}
+
+hr2  { 
+	background: url('./images/Z2.jpg') no-repeat top right;
+    background-size: contain;
+    display: block;
+    height: 150px;
+    border: 0;
+    position: relative;      margin-right: 12px; margin-top: 3px; 
+	
+		
+	  transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition:  height 0.5s;
+}
+#line {
+    content: '';
+    display: block;
+    position: absolute;
+    background: red;
+    height: 28px;
+    top: 55px;	    
+    right: 10px;
+    left: 0px;
+    margin-left: 18px; 
+
+	transition: height 0.5s, top 0.5s, right 0.5s;
+    -webkit-transition: height 0.5s, top 0.5s,right 0.5s;
+    -moz-transition:  height 0.5s, top 0.5s, right 0.5s;		
+	 
+}
+
+#line.small {
+  height: 19px;
+    top: 38px;	 
+    right: 6px;	
+}
+
+hr3 { 
+	background: url('./images/Z1.jpg') no-repeat top left ;
+    background-size: contain;
+    display: block;
+    height: 150px;
+    border: 0;
+    position: relative; 
+	margin-left: 12px;   
+	z-index:1;    
+	
+	
+	  transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition:  height 0.5s;
+}
+
+
+hr4 { 
+	background: url('./images/G.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+    display: block;
+    height: 150px;
+    border: 0;
+    position: relative;      
+	z-index:1;
+		
+	  transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition:  height 0.5s;
+}
+
+
+hr2.small {
+  height: 100px;
+}
+hr3.small {
+  height: 100px;
+}
+
+hr4.small {
+  height: 100px;
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px 1fr 100px;
+ grid-template-rows: auto;	
+margin-right: 10px;
+margin-left: 10px;	
+border-right: 1px solid black;	
+}
+.grid-item {
+	border-left: 1px solid black;border-bottom: 1px dotted black;
+  padding-top: 0px;
+  padding-left: 2px;
+	  padding-right: 2px;
+		  padding-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+
+}
+
+.grid-item_3 {
+	border-left: 1px solid black;border-bottom: 1px dotted black;
+  font-size: 9pt;
+ font-family: 'Courier New', monospace;	
+  text-align: left;
+  display: flex; 
+}
+
+.grid-item_6 {
+	border-left: 1px solid black;border-bottom: 1px dotted black;
+  font-size: 9pt;
+	padding-top: 10px;	
+ font-family: 'Courier New', monospace;	
+  text-align: left;
+  display: flex; 
+}
+
+
+.grid-item_5 {
+	border-left: 1px solid black;border-bottom: 1px dotted black;
+  text-align: left;
+  display: flex; 
+}
+
+.grid-item_4 {
+	border-left: 1px solid black;border-bottom: 1px dotted black;
+  padding-top: 0px;
+  padding-left: 20px;
+	  padding-right: 20px;
+		  padding-bottom: 20px;
+  font-size: 9pt;
+ font-family: 'Courier New', monospace;	
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width:200%	
+}
+
+
+
+.grid-item_1 {
+	border-left: 1px solid black;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;	
+}
+
+
+.grid-item_2 {
+ border-left: 1px solid black;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.pok {
+	  padding-top: 50px;
+		z-index: -3;
+}
+
+#obr{
+  grid-row: span 2;
+}
+
+
+.shark-1 {
+  top: 0;
+	z-index: -1;
+}
+
+
+
+.shark-3 {
+	position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+		z-index: -1;
+}
